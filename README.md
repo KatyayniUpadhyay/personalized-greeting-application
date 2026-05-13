@@ -1,11 +1,14 @@
 # Project README
 
+> **Note:** The `.env` and `.secrets` configuration details are included in the Application Workflow document/file linked below
+
 ## Overview
 
 This project consists of a frontend and backend application.
 
 * Frontend: React/Vite application
 * Backend: Django application
+* 
 
 The application can be run locally by starting both the frontend and backend servers.
 
