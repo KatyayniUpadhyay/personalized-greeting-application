@@ -43,12 +43,12 @@
 }
 
 .status-badge.paid {
-    background: #f59e0b; /* Amber/Gold */
+    background: #f59e0b;
     color: #000;
 }
 
 .status-badge.free {
-    background: #10b981; /* Emerald */
+    background: #10b981;
     color: #fff;
 }
 

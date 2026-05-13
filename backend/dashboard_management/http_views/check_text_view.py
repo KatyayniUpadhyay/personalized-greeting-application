@@ -11,7 +11,7 @@ class CheckTextView(APIView):
     permission_classes = [IsClerkAuthenticated]
 
     def get(self, request):
-        # Using the helper class
+
         message = CheckTextHelper.get_secure_greeting(request.user.email)
         return Response({
             "status": "success",

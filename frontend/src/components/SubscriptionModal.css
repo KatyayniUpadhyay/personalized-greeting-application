@@ -1,8 +1,8 @@
-/* SubscriptionModal.css */
+
 .modal-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(2, 4, 8, 0.9); /* Deep midnight overlay */
+    background: rgba(2, 4, 8, 0.9);
     backdrop-filter: blur(16px) saturate(180%);
     display: flex;
     justify-content: center;
@@ -12,10 +12,10 @@
 }
 
 .modal-content {
-    background: #0d1117; /* Solid dark base */
+    background: #0d1117;
     border: 1px solid #30363d;
-    border-radius: 12px; /* Sharper corners for a more professional feel */
-    padding: 0; /* Remove internal padding for the header/body split */
+    border-radius: 12px;
+    padding: 0;
     max-width: 440px;
     width: 100%;
     position: relative;
@@ -30,7 +30,7 @@
     to { transform: translateY(0); opacity: 1; }
 }
 
-/* Subtle glowing accent at the top */
+
 .modal-content::after {
     content: '';
     position: absolute;

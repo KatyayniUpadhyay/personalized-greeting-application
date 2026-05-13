@@ -39,7 +39,7 @@ const HomePage = () => {
 
             setIsModalOpen(true);
         } else {
-            // Open the Drawing Board for free templates
+
             setEditingTemplate(template);
         }
     };
@@ -61,7 +61,7 @@ const HomePage = () => {
                     <h2 className="welcome-title">Welcome</h2>
                 </div>
 
-                {/* Profile Card showing user details */}
+
                 <ProfileCard />
 
                 <section style={{ width: '100%', marginTop: '60px' }}>
@@ -85,13 +85,13 @@ const HomePage = () => {
                 </section>
             </main>
 
-            {/* Premium gate for paid templates */}
+
             <SubscriptionModal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             />
 
-            {/* Drawing board for free templates */}
+
             {editingTemplate && (
                 <EditTemplate
                     template={editingTemplate}
