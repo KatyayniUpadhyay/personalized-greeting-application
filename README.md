@@ -1,7 +1,5 @@
 # Project README
 
-> **Note:** The `.env` and `.secrets` configuration details are included in the Application Workflow document/file linked below
-
 ## Overview
 
 This project consists of a frontend and backend application.
@@ -26,6 +24,8 @@ git clone https://github.com/KatyayniUpadhyay/personalized-greeting-application
 
 # Frontend Setup
 
+> Ensure the `.env` file is added inside the `frontend` directory before running the application. The configuration details are available in the Application Workflow document/file.
+
 Open a terminal and run:
 
 ```bash
@@ -39,6 +39,8 @@ The frontend server will start locally.
 ---
 
 # Backend Setup
+
+> Ensure the `.secrets` file is added inside the `backend` directory before running the server. The configuration details are available in the Application Workflow document/file.
 
 Open another terminal and run:
 
