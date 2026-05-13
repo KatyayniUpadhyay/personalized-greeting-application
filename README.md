@@ -6,7 +6,6 @@ This project consists of a frontend and backend application.
 
 * Frontend: React/Vite application
 * Backend: Django application
-* 
 
 The application can be run locally by starting both the frontend and backend servers.
 
