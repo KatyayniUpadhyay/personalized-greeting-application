@@ -65,16 +65,6 @@ https://drive.google.com/file/d/169pwK-ughYPTFKn7PKu_SmWnkPBx0kHj/view?usp=shari
 
 ---
 
-# Project Workflow
-
-1. User interacts with the frontend interface.
-2. Frontend sends requests to the Django backend.
-3. Backend processes the requests and interacts with the database.
-4. Backend returns responses to the frontend.
-5. Frontend displays the processed data to the user.
-
----
-
 # Website Screenshots
 
 ## Home Page
