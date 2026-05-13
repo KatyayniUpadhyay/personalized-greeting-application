@@ -17,7 +17,7 @@ const HomePage = () => {
 
             <main className="dashboard-main">
                 <div className="welcome-section">
-                    <h2 className="welcome-title">Welcome back, Aaditya.</h2>
+                    <h2 className="welcome-title">Welcome back, Katyayni.</h2>
                 </div>
                 <ProfileCard />
             </main>
